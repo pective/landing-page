@@ -40,11 +40,18 @@ a{
     font-size: 48px;
     font-weight: extra-bold;
     color: #f9faf8;
+    max-width: 444px;
 }
 .subtext{
     font-size: 18px;
     color: #e5e7eb;
+    max-width: 444px;
 }
 img{
     max-height: 200px;
+    margin-left: 44px;
+}
+button{
+    background-color: #3882f6;
+    color: white;
 }
