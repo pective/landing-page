@@ -13,6 +13,10 @@ body{
     justify-content: space-between;
     margin-left: 100px;
     margin-right: 100px;
+    padding: 10px;
+}
+.logo{
+    padding-top: 10px;
 }
 .headerbody{
     background-color: #1f2937;
@@ -25,9 +29,10 @@ body{
 ul{
     display: flex;
     list-style: none;
+    gap: 10px;
 }
 a{
-    text-decoration: dotted;
+    text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
 }
