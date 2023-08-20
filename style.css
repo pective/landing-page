@@ -105,18 +105,32 @@ span{
 .part3{
     background-color: #e5e7eb;
     display: flex;
-
+    justify-content: center;
 }
 .quote{
     font-size: 36px;
     display: flex;
     font-weight: lighter;
-    font-style: italic;
+    font-style: oblique;
     color: #1f2937;
-    justify-content: center;
-    padding: 40px;
+    align-items: end;
+    padding: 50px;
+    max-width: 900px;
+    margin-left: 150px;
+    flex-flow: column;
 }
 .author{
     display: flex;
     align-items: end;
+    flex-flow: column;
+    flex-wrap: wrap;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.banner{
+    background-color: #3882f6;
+    width: 950px;
+    height: 100px;
 }
