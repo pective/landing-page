@@ -129,8 +129,11 @@ span{
     font-weight: bold;
 
 }
-.banner{
+.part4{
+    padding: 100px;
+}
+.call-action{
     background-color: #3882f6;
-    width: 950px;
-    height: 100px;
+    border-radius: 4px;
+    display: flex   ;
 }
