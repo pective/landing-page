@@ -89,6 +89,7 @@ button{
     display: flex;
     gap: 40px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 span{
     display: flex;
@@ -130,10 +131,15 @@ span{
 
 }
 .part4{
-    padding: 100px;
+    padding: 55px 88px;
 }
 .call-action{
     background-color: #3882f6;
     border-radius: 4px;
-    display: flex   ;
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+
 }
