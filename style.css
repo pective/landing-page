@@ -132,14 +132,30 @@ span{
 }
 .part4{
     padding: 55px 88px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
 }
 .call-action{
     background-color: #3882f6;
     border-radius: 4px;
-    display: flex;
-    flex-flow: wrap;
-    align-items: center;
+    color: #f9faf8;
     justify-content: space-around;
-    padding: 20px;
-
+    padding: 15px;
+    align-items: center;
+    padding-top: 10px;
+    display: flex;
+    flex-flow: column;
+    gap: 10px 100px;
+    flex-grow: 1;
+}
+.c-a-button{
+    color: white;
+    padding: 5px 20px;
+    border-radius: 8px;
+    border: 2px solid white;
+}
+.text{
+    gap: 0px;
+    margin: 0px;
 }
