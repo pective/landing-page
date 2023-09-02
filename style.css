@@ -149,6 +149,10 @@ span{
     gap: 10px 100px;
     max-width: fit-content;
     font-size: large;
+
+}
+.part4 .call-action .text{
+    margin-bottom: 20px;
 }
 .c-a-title{
     display: flex;
